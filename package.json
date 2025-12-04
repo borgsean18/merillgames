@@ -10,7 +10,7 @@
     "sass": "^1.94.2"
   },
   "scripts": {
-    "build:css": "sass src/scss/main.scss docs/css/main.css",
-    "watch:css": "sass --watch src/scss:docs/css"
+    "build:css": "sass --quiet-deps src/scss/main.scss docs/css/main.css",
+    "watch:css": "sass --quiet-deps --watch src/scss:docs/css"
   }
 }
